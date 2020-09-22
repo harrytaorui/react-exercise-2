@@ -13,6 +13,10 @@ body {
 
 h1 {
   font-size: 2em;
+  color: white;
+  width:90%;
+  padding: 10px;
+
 }
 
 h2 {
@@ -29,7 +33,7 @@ p {
 
 h1,
 h2,
-h3,
+
 p {
   margin: 0;
 }
@@ -39,3 +43,58 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+header{
+  display: flex;
+  background-color: $support-blue;
+  padding: 10px 5px;
+}
+
+.cart {
+  display: flex;
+  width:5%;
+  transform: translateY(20px);
+  color:white;
+}
+
+.fa-shopping-cart {
+  padding: 5px;
+}
+
+
+.fa-shopping-cart:before {
+  content: "\f07a";
+  color: white;
+}
+
+.goods {
+  margin:10px;
+  padding: 20px;
+}
+
+.phones {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.phone {
+  width: 33%;
+  padding: 10px;
+}
+
+
+.product-footer{
+  display: flex;
+}
+
+button {
+  background-color: $support-blue;
+  padding: 5px 10px;
+  width: 20%;
+  margin-left: 10px;
+}
+
+button:focus {
+  background-color: $second-blue;
+}
+
